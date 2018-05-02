@@ -28,10 +28,10 @@
 			<nav>
 			<a class ="{{ activeMenu('/') ? 'active':''}}" href="{{route('home')}}">Inicio</a>
 			<a class ="{{ activeMenu('saludos/*') ? 'active':''}}"  href="{{route('saludos')}}">Saludos</a>
-			<a class ="{{ activeMenu('mensajes/create') ? 'active':''}}"  href="{{route('messages.create')}}">Contactos</a>
+			<a class ="{{ activeMenu('mensajes/create') ? 'active':''}}"  href="{{route('mensajes.create')}}">Contactos</a>
 		
 
-			<a class ="{{ activeMenu('mensajes') ? 'active':''}}"  href="{{route('messages.index')}}">Mensajes</a>
+			<a class ="{{ activeMenu('mensajes') ? 'active':''}}"  href="{{route('mensajes.index')}}">Mensajes</a>
 
 		</header>
 		@yield('contenido')

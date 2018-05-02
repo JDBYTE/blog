@@ -1,7 +1,7 @@
 @extends('layout')
 @section('contenido')
 <h1>Editar Mensaje</h1>
-<form method="POST" action="{{ route('messages.update',$message->id)}}">
+<form method="POST" action="{{ route('mensajes.update',$message->id)}}">
 	{!! method_field('PUT')!!}
     {!! csrf_field()!!}
 
